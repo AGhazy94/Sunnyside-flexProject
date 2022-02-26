@@ -1,0 +1,82 @@
+.testimonials {
+  padding: 5rem 1rem;
+  text-align: center;
+
+  @media screen and (min-width: $small-screen) {
+    padding: 7rem 0;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    color: $c-n-dark-blue-4;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+
+    @media screen and (min-width: $small-screen) {
+      font-size: 2rem;
+    }
+  }
+
+  &__agent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 2rem;
+
+    &--img {
+      border-radius: 50%;
+      width: 6rem;
+      height: 6rem;
+      margin-bottom: 2rem;
+
+      @media screen and (min-width: $small-screen) {
+        width: 5rem;
+        height: 5rem;
+      }
+    }
+
+    &--lead {
+      color: $c-n-dark-blue-2;
+      line-height: 1.7;
+      padding: 0 2rem 2rem 2rem;
+      font-size: 1.4rem;
+
+      @media screen and (min-width: $small-screen) {
+        font-size: 1.2rem;
+      }
+
+      @media screen and (min-width: $large-screen) {
+        font-size: 1.3rem;
+      }
+    }
+
+    &--name {
+      color: $c-n-dark-blue-1;
+      font-size: 1.8rem;
+
+      @media screen and (min-width: $small-screen) {
+        font-size: 1.6;
+      }
+    }
+
+    &--title {
+      color: $c-n-dark-blue-4;
+      font-size: 1.3rem;
+      font-weight: 600;
+      padding-top: 1rem;
+
+      @media screen and (min-width: $small-screen) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.container {
+  @media screen and (min-width: $small-screen) {
+    display: flex;
+  }
+}

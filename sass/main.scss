@@ -1,0 +1,39 @@
+// IMPORTS
+@import './variables';
+@import './header';
+@import './hero';
+@import './testimonials';
+@import './footer';
+
+// RESETS
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+// FONTS
+
+body {
+  font-size: 1.8rem;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $f-heading;
+}
+
+p {
+  font-family: $f-content;
+}

@@ -1,0 +1,23 @@
+// COLORS
+
+// Primary
+$c-p-soft-red: hsl(7, 99%, 70%);
+$c-p-yellow: hsl(51, 100%, 49%);
+$c-p-dark-cyan-1: hsl(167, 40%, 24%);
+$c-p-dark-cyan-2: hsl(168, 34%, 41%);
+$c-p-dark-blue: hsl(198, 62%, 26%);
+
+// Neutral
+$c-n-dark-blue-1: hsl(212, 27%, 19%);
+$c-n-dark-blue-2: hsl(213, 9%, 39%);
+$c-n-dark-blue-3: hsl(232, 10%, 55%);
+$c-n-dark-blue-4: hsl(210, 4%, 67%);
+$c-n-white: hsl(0, 0%, 100%);
+
+// FONTS
+$f-content: 'Barlow', sans-serif;
+$f-heading: 'Fraunces', serif;
+
+// RESPONSIVE BREAKPOINTS
+$small-screen: 48em;
+$large-screen: 64.1em;

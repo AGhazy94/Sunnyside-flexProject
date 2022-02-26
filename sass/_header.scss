@@ -1,0 +1,145 @@
+.header {
+  position: relative;
+  min-height: 75vh;
+  width: 100%;
+
+  @media screen and (min-width: $large-screen) {
+    height: 80vh;
+  }
+
+  &__nav {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--logo {
+      display: block;
+      width: 10rem;
+      height: 2rem;
+
+      @media screen and (min-width: $large-screen) {
+        width: 12rem;
+        height: 2.75rem;
+      }
+    }
+
+    &--bar {
+      position: absolute;
+      top: 12%;
+      left: 50%;
+      transform: translate(-50%);
+      background-color: $c-n-white;
+      list-style: none;
+      height: 60%;
+      width: 70%;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      @media screen and (min-width: $small-screen) {
+        display: flex;
+        position: static;
+        transform: translate(0);
+        background-color: transparent;
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+        width: 40%;
+      }
+
+      @media screen and (min-width: $large-screen) {
+        width: 25%;
+      }
+    }
+
+    &--active {
+      display: flex;
+    }
+
+    &--item {
+    }
+
+    &--link {
+      &:link,
+      &:visited,
+      &:active {
+        text-decoration: none;
+        font-family: $f-content;
+        color: $c-n-dark-blue-4;
+        font-size: 1.8rem;
+        transition: all 0.2s;
+
+        @media screen and (min-width: $small-screen) {
+          color: $c-n-white;
+          font-size: 1.3rem;
+        }
+
+        @media screen and (min-width: $large-screen) {
+          font-size: 1.5rem;
+        }
+      }
+      &:hover {
+        color: $c-n-dark-blue-1;
+        padding: 1rem 3rem;
+        background-color: $c-p-yellow;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+        @media screen and (min-width: $small-screen) {
+          padding: 0.75rem 2rem;
+          background-color: $c-n-white;
+        }
+      }
+    }
+
+    &--burger {
+      cursor: pointer;
+
+      @media screen and (min-width: $small-screen) {
+        display: none;
+      }
+    }
+  }
+
+  &__content {
+    &--bg {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-image: url('../images/mobile/image-header.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      z-index: -1;
+
+      @media screen and (min-width: $small-screen) {
+        background-image: url('../images/desktop/image-header.jpg');
+      }
+
+      @media screen and (min-width: $large-screen) {
+        background-position: center;
+      }
+    }
+
+    &--text {
+      font-family: $f-heading;
+      font-weight: 900;
+      font-size: 3.6rem;
+      text-align: center;
+      color: $c-n-white;
+      letter-spacing: 0.7rem;
+      text-transform: uppercase;
+      margin-top: 3rem;
+    }
+
+    &--arrow {
+      display: block;
+      margin: 0 auto;
+      padding-top: 3.5rem;
+    }
+  }
+}

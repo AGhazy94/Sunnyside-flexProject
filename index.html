@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./script.js" defer></script>
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <img
+          src="./images/logo.svg"
+          alt="Sunnyside Logo"
+          class="header__nav--logo"
+        />
+        <ul class="header__nav--bar">
+          <li class="header__nav--item">
+            <a href="#" class="header__nav--link">About</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="#" class="header__nav--link">Services</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="#" class="header__nav--link">Projects</a>
+          </li>
+          <li class="header__nav--item header__nav--item">
+            <a href="#" class="header__nav--link">Contact</a>
+          </li>
+        </ul>
+        <div class="header__nav--burger">
+          <img src="./images/icon-hamburger.svg" alt="burger menu" />
+        </div>
+      </nav>
+      <div class="header__content">
+        <div class="header__content--bg"></div>
+        <h1 class="header__content--text">We are creatives</h1>
+        <img
+          src="./images/icon-arrow-down.svg"
+          alt="Arrow down"
+          class="header__content--arrow"
+        />
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero__section hero__section--split">
+        <div class="hero__section--img hero__section--img--egg"></div>
+        <div class="hero__section--text">
+          <h2 class="hero__section--heading">Transform your brand</h2>
+          <p class="hero__section--lead">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a href="#" class="btn btn--yellow">Learn more</a>
+        </div>
+      </div>
+
+      <div class="hero__section hero__section--split">
+        <div class="hero__section--img hero__section--img--cup"></div>
+        <div class="hero__section--text">
+          <h2 class="hero__section--heading">
+            Stand out to the right audience
+          </h2>
+          <p class="hero__section--lead">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a href="#" class="btn btn--pink">Learn more</a>
+        </div>
+      </div>
+
+      <div class="hero__section hero__section--compact hero__section--cherry">
+        <div class="hero__section--text hero__section--text--compact">
+          <h2 class="hero__section--heading hero__section--heading--cherry">
+            Graphic design
+          </h2>
+          <p class="hero__section--lead hero__section--lead--cherry">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+      </div>
+
+      <div class="hero__section hero__section--compact hero__section--orange">
+        <div class="hero__section--text hero__section--text--compact">
+          <h2 class="hero__section--heading hero__section--heading--orange">
+            Photography
+          </h2>
+          <p class="hero__section--lead hero__section--lead--orange">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section class="testimonials">
+      <h3 class="testimonials__heading">Client testimonials</h3>
+      <div class="container">
+        <div class="testimonials__agent">
+          <img
+            src="./images/image-emily.jpg"
+            alt="Emily R"
+            class="testimonials__agent--img"
+          />
+          <p class="testimonials__agent--lead">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h3 class="testimonials__agent--name">Emily R.</h3>
+          <p class="testimonials__agent--title">Marketing Director</p>
+        </div>
+
+        <div class="testimonials__agent">
+          <img
+            src="./images/image-thomas.jpg"
+            alt="Thomas S"
+            class="testimonials__agent--img"
+          />
+          <p class="testimonials__agent--lead">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h3 class="testimonials__agent--name">Thomas S.</h3>
+          <p class="testimonials__agent--title">Chief Operating Officer</p>
+        </div>
+
+        <div class="testimonials__agent">
+          <img
+            src="./images/image-jennie.jpg"
+            alt="Jennie F"
+            class="testimonials__agent--img"
+          />
+          <p class="testimonials__agent--lead">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h3 class="testimonials__agent--name">Jennie F.</h3>
+          <p class="testimonials__agent--title">Business Owner</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="gallery__img--1"></div>
+      <div class="gallery__img--2"></div>
+      <div class="gallery__img--3"></div>
+      <div class="gallery__img--4"></div>
+    </section>
+
+    <footer class="footer">
+      <!-- <img src="./images/logo.svg" alt="SunnySide Logo" class="footer__logo" /> -->
+      <div class="footer__logo"></div>
+      <ul class="footer__nav">
+        <li class="footer__nav--item">
+          <a href="#" class="footer__nav--link">About</a>
+        </li>
+        <li class="footer__nav--item">
+          <a href="#" class="footer__nav--link">Services</a>
+        </li>
+        <li class="footer__nav--item">
+          <a href="#" class="footer__nav--link">Projects</a>
+        </li>
+      </ul>
+      <div class="footer__socials">
+        <img
+          src="./images/icon-facebook.svg"
+          alt="Facebook"
+          class="footer__socials--item"
+        /><img
+          src="./images/icon-instagram.svg"
+          alt="Instagram"
+          class="footer__socials--item"
+        /><img
+          src="./images/icon-twitter.svg"
+          alt="Twitter"
+          class="footer__socials--item"
+        /><img
+          src="./images/icon-pinterest.svg"
+          alt="Pinterest"
+          class="footer__socials--item"
+        />
+      </div>
+    </footer>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ahmed Ghazy</a>.
+    </div>
+  </body>
+</html>
