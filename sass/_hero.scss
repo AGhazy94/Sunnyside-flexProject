@@ -21,7 +21,7 @@
     }
 
     @media screen and (min-width: $large-screen) {
-      height: 45rem;
+      height: 65rem;
     }
 
     &--split {
@@ -37,7 +37,7 @@
       }
 
       @media screen and (min-width: $large-screen) {
-        height: 45rem;
+        height: 65rem;
       }
     }
 
@@ -131,6 +131,11 @@
         padding: 0;
       }
 
+      @media screen and (min-width: $large-screen) {
+        font-size: 3.75rem;
+        margin-top: 6rem;
+      }
+
       &--cherry {
         color: $c-p-dark-cyan-1;
       }
@@ -149,18 +154,20 @@
 
       @media screen and (min-width: $small-screen) {
         font-size: 1.7rem;
-
         padding: 0 2rem;
+      }
+
+      @media screen and (min-width: $large-screen) {
+        font-size: 2rem;
+        padding: 0 3rem;
       }
 
       &--cherry {
         color: $c-p-dark-cyan-1;
-        font-size: 1.5rem;
       }
 
       &--orange {
         color: $c-p-dark-blue;
-        font-size: 1.5rem;
       }
     }
   }

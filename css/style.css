@@ -104,6 +104,9 @@
     display: block;
     margin: 0 auto;
     padding-top: 3.5rem; }
+    @media screen and (min-width: 64.1em) {
+      .header__content--arrow {
+        padding-top: 6rem; } }
 
 .hero {
   display: flex;
@@ -125,7 +128,7 @@
         height: 40rem; } }
     @media screen and (min-width: 64.1em) {
       .hero__section {
-        height: 45rem; } }
+        height: 65rem; } }
     .hero__section--compact {
       height: 80vh; }
       @media screen and (min-width: 48em) {
@@ -135,7 +138,7 @@
           width: 50%; } }
       @media screen and (min-width: 64.1em) {
         .hero__section--compact {
-          height: 45rem; } }
+          height: 65rem; } }
     .hero__section--cherry {
       background-image: url("../images/mobile/image-graphic-design.jpg");
       background-size: cover;
@@ -204,6 +207,10 @@
         .hero__section--heading {
           font-size: 3rem;
           padding: 0; } }
+      @media screen and (min-width: 64.1em) {
+        .hero__section--heading {
+          font-size: 3.75rem;
+          margin-top: 6rem; } }
       .hero__section--heading--cherry {
         color: #25564b; }
       .hero__section--heading--orange {
@@ -218,12 +225,14 @@
         .hero__section--lead {
           font-size: 1.7rem;
           padding: 0 2rem; } }
+      @media screen and (min-width: 64.1em) {
+        .hero__section--lead {
+          font-size: 2rem;
+          padding: 0 3rem; } }
       .hero__section--lead--cherry {
-        color: #25564b;
-        font-size: 1.5rem; }
+        color: #25564b; }
       .hero__section--lead--orange {
-        color: #19536b;
-        font-size: 1.5rem; }
+        color: #19536b; }
 
 .btn {
   display: inline-block;

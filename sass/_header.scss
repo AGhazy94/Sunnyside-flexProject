@@ -140,6 +140,10 @@
       display: block;
       margin: 0 auto;
       padding-top: 3.5rem;
+
+      @media screen and (min-width: $large-screen) {
+        padding-top: 6rem;
+      }
     }
   }
 }
